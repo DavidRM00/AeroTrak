@@ -1,0 +1,37 @@
+.header-bg {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(204,217,227,1) 12%, rgba(106,144,174,1) 41%, rgba(60,110,150,1) 57%, rgba(10,73,123,1) 100%);
+}
+
+.main{
+    height: 1200px;
+}
+
+.tablename {
+    background-color: #0a497b;
+    color: gold;
+}
+
+.align-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.footer {
+    background-color: #0A497B;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .mt-xs {
+        margin-top: 30px;
+    }
+
+    .text-center {
+        font-size: 14px;
+    }
+}
